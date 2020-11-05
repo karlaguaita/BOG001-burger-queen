@@ -1,0 +1,14 @@
+* {
+    background-color: black
+}
+
+.Intro{
+    display: flex;
+    justify-content: center;
+    
+}
+.bqImg{
+    position: absolute;
+    top: 25%;
+    border-radius: 50%;
+}
