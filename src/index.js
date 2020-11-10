@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import Intro from './componentes/intro.js'
+import HeaderComponete from './componentes/headerComponete/hC.js'
+import FooterComponent from './componentes/FooterComponent/FooterComponent.js'
+import FormularioComponent from './componentes/FormularioComponent/FormularioC.js'
+import App from './app.js'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Intro/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
