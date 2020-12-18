@@ -54,6 +54,7 @@ class FormularioComponent extends Component {
     }
 
     login(){
+      let _this = this
       if (!this.state.email)
         alert('Por favor introducir su email')
       else if(!this.state.pass)
@@ -63,7 +64,21 @@ class FormularioComponent extends Component {
         // Autenticamos el usuario con correo y password en firebase
         firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.pass)
           .then((user) => {
-            this.setState({redirect: '/seleccion'})
+            console.log(user.user.uid)
+            firebase.firestore()
+            .collection('usuarios')
+            .doc(user.user.uid)
+            .get()
+            .then(function(userData) {
+              console.log(userData.data())
+              if (userData.data().Tipo == 'Mesero')
+                _this.setState({redirect: '/seleccion'})
+              else
+                _this.setState({redirect: '/chef'})
+            }).catch(function(error) {
+              console.log('Error fetching user data:', error);
+            });
+            
           })
           .catch((error) => {
             var errorCode = error.code;

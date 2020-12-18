@@ -10,6 +10,7 @@ import FooterComponent from './componentes/FooterComponent/FooterComponent.js'
 import FormularioComponent from './componentes/FormularioComponent/FormularioC.js'
 import SeleccionMesa from './componentes/SeleccionMesa/SeleccionMesa.js'
 import SeleccionMenu from './componentes/seleccionMenu/seleccionMenu.js'
+import ListaChef from './componentes/ListaChef/listaChef.js'
 import './app.scss';
 import firebase from 'firebase/app'
 
@@ -42,6 +43,9 @@ export default function App() {
           </Route>
           <Route path="/seleccion">
             <Mesa/>
+          </Route>
+          <Route path="/chef">
+            <Chef/>
           </Route>
           <Route path="/">
             <Home />
@@ -85,6 +89,16 @@ function Mesa() {
           <HeaderComponete/>
           <FooterComponent/>
           <SeleccionMenu/>
+      </div>
+    );
+  }
+
+  function Chef(){
+    return (
+      <div>
+          <HeaderComponete/>
+          <FooterComponent/>
+          <ListaChef/>
       </div>
     );
   }
