@@ -1,0 +1,497 @@
+.Smenu{
+    color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.BoxWhite{
+    background-color: white;
+    margin-top: 30px;
+    height: 450px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titlesMenu{
+    flex: .4;
+    display: flex;
+}
+
+.hour{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.textFormatMenu{
+    font-size: 24px;
+    font-weight: bold;
+    color: #180B69;
+}
+
+.titleBoxMenu{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.typeMenu{
+    flex: .4;
+    display: flex;
+}
+
+.picsMenu{
+    flex: 1;
+}
+
+.groupImage{
+    display: flex;
+}
+
+.groupImage2{
+    display: flex;
+    flex: 1;
+}
+
+.desayunoImg{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Sandjyq{
+    height: 120px;
+}
+
+.resumenMenu{
+    flex: .8;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.headerMenu{
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 1;
+    display: flex;
+}
+
+.boxHeader{
+    flex: 1;
+    background-color: #2F80ED;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxHeaderEnd{
+    flex: 1;
+    background-color: #2F80ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerTextStyle{
+    font-size: 20px;
+    color: white;
+}
+
+.bodyTextStyle{
+    font-size: 24px;
+    color: black;
+}
+
+.bodyTextStyleInput{
+    font-size: 20px;
+    width: 150px;
+}
+
+.bodyMenu{
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 2;
+    display: flex;
+}
+
+.bodyHeader{
+    flex: 1;
+    background-color: #E5E5E5;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyHeaderEnd{
+    flex: 1;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonMesaSelect{
+    height: 50px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    color:White;
+    font-size: 25px;
+        box-shadow: inset 3px 3px 3px rgba(255,255,255,.7), inset -2px -2px 3px rgba(0,0,0,.1), 2px 2px 10px rgba(0,0,0,.1);
+        width: 200px;  /* Ancho del botón */
+        border: 1px solid #9b9bff; /* Borde */
+        background: #2F80ED;  /* Fondo */
+        text-align: center;  /* Alineación del texto */
+        text-shadow: -1px -1px rgba(0,0,0,.2);  /* Sombra del texto */
+        border-radius: 50px;  /* Bordes redondos */
+        color: white;  /* Color del texto */
+}
+.botonMesaSelect:active /* Al presionarse el botón */ {
+        text-shadow: 1px 1px rgba(0,0,0,.3);  /* Sombra del texto */
+        background:#3d3dff;  /* Fondo más oscuro que el original */
+        box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,255,.2);
+}
+
+.botonMesaSelect2{
+    height: 50px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    color:White;
+    font-size: 25px;
+        box-shadow: inset 3px 3px 3px rgba(255,255,255,.7), inset -2px -2px 3px rgba(0,0,0,.1), 2px 2px 10px rgba(0,0,0,.1);
+        width: 200px;  /* Ancho del botón */
+        border: 1px solid #9b9bff; /* Borde */
+        background: #2F80ED;  /* Fondo */
+        text-align: center;  /* Alineación del texto */
+        text-shadow: -1px -1px rgba(0,0,0,.2);  /* Sombra del texto */
+        border-radius: 50px;  /* Bordes redondos */
+        color: white;  /* Color del texto */
+}
+.botonMesaSelect2:active /* Al presionarse el botón */ {
+        text-shadow: 1px 1px rgba(0,0,0,.3);  /* Sombra del texto */
+        background:#3d3dff;  /* Fondo más oscuro que el original */
+        box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,255,.2);
+}
+
+.botonMesaSelect3{
+    height: 50px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    color:White;
+    font-size: 25px;
+        box-shadow: inset 3px 3px 3px rgba(255,255,255,.7), inset -2px -2px 3px rgba(0,0,0,.1), 2px 2px 10px rgba(0,0,0,.1);
+        width: 200px;  /* Ancho del botón */
+        border: 1px solid #9b9bff; /* Borde */
+        background: #2F80ED;  /* Fondo */
+        text-align: center;  /* Alineación del texto */
+        text-shadow: -1px -1px rgba(0,0,0,.2);  /* Sombra del texto */
+        border-radius: 50px;  /* Bordes redondos */
+        color: white;  /* Color del texto */
+}
+.botonMesaSelect3:active /* Al presionarse el botón */ {
+        text-shadow: 1px 1px rgba(0,0,0,.3);  /* Sombra del texto */
+        background:#3d3dff;  /* Fondo más oscuro que el original */
+        box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,255,.2);
+}
+
+.botonSelect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.botonComidas{
+    height: 25px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    color:White;
+    font-size: 15px;
+        box-shadow: inset 3px 3px 3px rgba(255,255,255,.7), inset -2px -2px 3px rgba(0,0,0,.1), 2px 2px 10px rgba(0,0,0,.1);
+        width: 100px;  /* Ancho del botón */
+        border: 1px solid #9b9bff; /* Borde */
+        background: #2F80ED;  /* Fondo */
+        text-align: center;  /* Alineación del texto */
+        text-shadow: -1px -1px rgba(0,0,0,.2);  /* Sombra del texto */
+        border-radius: 50px;  /* Bordes redondos */
+        color: white;  /* Color del texto */
+}
+.botonComidas:active /* Al presionarse el botón */ {
+        text-shadow: 1px 1px rgba(0,0,0,.3);  /* Sombra del texto */
+        background:#3d3dff;  /* Fondo más oscuro que el original */
+        box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,255,.2);
+}
+
+.BoxWhiteLeft{
+    background-color: white;
+    margin-top: 30px;
+    height: 450px;
+    width: 55%;
+}
+
+.BoxWhiteRight{
+    background-color: white;
+    margin-top: 30px;
+    height: 450px;
+    width: 38%;
+    margin-left: 10px;
+}
+
+.titlesMenu2{
+    display: flex;
+    padding-left: 10px;
+}
+
+.resumenMenu2{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.boxProductsImg{
+    height: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.leftBoxDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.dataOrder{
+    height: 60px;
+    margin-left: 20px;
+}
+
+.textOrderHeader{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.headerMenu1{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 25px;
+    display: flex;
+}
+
+.bodyMenu1{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 25px;
+    display: flex;
+}
+
+.resumenMenu3{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.boxHeader1{
+    flex: 1;
+    background-color: #2F80ED;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxHeader2{
+    flex: .5;
+    background-color: #2F80ED;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxHeader3{
+    flex: .5;
+    background-color: #2F80ED;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxHeader4{
+    flex: .5;
+    background-color: #2F80ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyHeader1{
+    flex: 1;
+    background-color: #E5E5E5;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyHeader2{
+    flex: .5;
+    background-color: #E5E5E5;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyHeader3{
+    flex: .5;
+    background-color: #E5E5E5;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyHeader4{
+    flex: .5;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyTextStyleInput{
+    font-size: 16px;
+}
+
+.headerTextStyle2{
+    font-size: 16px;
+    color: white;
+}
+
+.bodyHeader5{
+    flex: 1.53;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.typeMenu1{
+    display: flex;
+    margin-top: 20px;
+    flex: 1
+}
+
+.typeMenu2{
+    display: flex;
+    margin-top: 20px;
+    flex: 1;
+    flex-direction: column;
+}
+
+.botonMesaSelectBack{
+    height: 50px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    color:White;
+    font-size: 15px;
+        box-shadow: inset 3px 3px 3px rgba(255,255,255,.7), inset -2px -2px 3px rgba(0,0,0,.1), 2px 2px 10px rgba(0,0,0,.1);
+        width: 120px;  /* Ancho del botón */
+        border: 1px solid #9b9bff; /* Borde */
+        background: #2F80ED;  /* Fondo */
+        text-align: center;  /* Alineación del texto */
+        text-shadow: -1px -1px rgba(0,0,0,.2);  /* Sombra del texto */
+        border-radius: 50px;  /* Bordes redondos */
+        color: white;  /* Color del texto */
+}
+.botonMesaSelectBack:active /* Al presionarse el botón */ {
+        text-shadow: 1px 1px rgba(0,0,0,.3);  /* Sombra del texto */
+        background:#3d3dff;  /* Fondo más oscuro que el original */
+        box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,255,.2);
+}
+
+.botonMesaSelectProcesar{
+    height: 50px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    color:White;
+    font-size: 15px;
+        box-shadow: inset 3px 3px 3px rgba(255,255,255,.7), inset -2px -2px 3px rgba(0,0,0,.1), 2px 2px 10px rgba(0,0,0,.1);
+        width: 120px;  /* Ancho del botón */
+        border: 1px solid #9b9bff; /* Borde */
+        background: #2F80ED;  /* Fondo */
+        text-align: center;  /* Alineación del texto */
+        text-shadow: -1px -1px rgba(0,0,0,.2);  /* Sombra del texto */
+        border-radius: 50px;  /* Bordes redondos */
+        color: white;  /* Color del texto */
+}
+.botonMesaSelectProcesar:active /* Al presionarse el botón */ {
+        text-shadow: 1px 1px rgba(0,0,0,.3);  /* Sombra del texto */
+        background:#3d3dff;  /* Fondo más oscuro que el original */
+        box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,255,.2);
+}
+
+.BurguerMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botonMesaSelectVolver{
+    height: 50px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    color:White;
+    font-size: 15px;
+        box-shadow: inset 3px 3px 3px rgba(255,255,255,.7), inset -2px -2px 3px rgba(0,0,0,.1), 2px 2px 10px rgba(0,0,0,.1);
+        width: 120px;  /* Ancho del botón */
+        border: 1px solid #9b9bff; /* Borde */
+        background: red;  /* Fondo */
+        text-align: center;  /* Alineación del texto */
+        text-shadow: -1px -1px rgba(0,0,0,.2);  /* Sombra del texto */
+        border-radius: 50px;  /* Bordes redondos */
+        color: white;  /* Color del texto */
+}
+.botonMesaSelectVolver:active /* Al presionarse el botón */ {
+        text-shadow: 1px 1px rgba(0,0,0,.3);  /* Sombra del texto */
+        background:#3d3dff;  /* Fondo más oscuro que el original */
+        box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,255,.2);
+}
+
+.botonMesaSelectPagar{
+    height: 50px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    color:White;
+    font-size: 15px;
+        box-shadow: inset 3px 3px 3px rgba(255,255,255,.7), inset -2px -2px 3px rgba(0,0,0,.1), 2px 2px 10px rgba(0,0,0,.1);
+        width: 120px;  /* Ancho del botón */
+        border: 1px solid #9b9bff; /* Borde */
+        background: green;  /* Fondo */
+        text-align: center;  /* Alineación del texto */
+        text-shadow: -1px -1px rgba(0,0,0,.2);  /* Sombra del texto */
+        border-radius: 50px;  /* Bordes redondos */
+        color: white;  /* Color del texto */
+}
+.botonMesaSelectPagar:active /* Al presionarse el botón */ {
+        text-shadow: 1px 1px rgba(0,0,0,.3);  /* Sombra del texto */
+        background:#3d3dff;  /* Fondo más oscuro que el original */
+        box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,255,.2);
+}
